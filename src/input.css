@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* navSection */
+.navBar {
+  @apply py-10 flex text-white relative z-10 text-xl;
+}
+.navLogo {
+  @apply w-10 pl-10 font-sans font-medium text-3xl;
+}
+.hanbargar {
+  @apply text-white;
+}
+.navMenu {
+  @apply ml-auto;
+}
+.navMenu > a > span {
+  @apply justify-between mx-5;
+}
+/* heroSection */
+.backGroundImg {
+  @apply z-0 absolute top-0 bg-cover bg-no-repeat w-full h-[80%] aspect-square;
+}
